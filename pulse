@@ -21,5 +21,7 @@ elif 50 <= age <= 60  and 64 <= pulse <= 84:
     print('С Вами все нормально!')
 elif 60 <= age <= 80  and 69 <= pulse <= 89:
     print('С Вами все нормально!')
+elif age > 80 or age < 1:
+    print('Ошибка')
 else:
     print('Пульс не в порядке')
