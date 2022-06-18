@@ -1,22 +1,22 @@
-user_text = input('Скажи что-нибудь')
-bad_phrases = ['бля', 'блин', 'черт']
-greeting_phrases = ['привет', 'дороу', 'добрый день']
-farewell_phrases = ['пока','покеда', 'доброго вечера']
+user_text = input("Скажи что-нибудь")
+bad_phrases = ["бля", "блин", "черт"]
+greeting_phrases = ["привет", "дороу", "добрый день"]
+farewell_phrases = ["пока", "покеда", "доброго вечера"]
 met_phrase = False
 for bad_phrase in bad_phrases:
     if user_text == bad_phrase:
-        print('не ругайся!')
-        met_phrase = True
-        break      
-for greeting_phrase in greeting_phrases:
-    if user_text == greeting_phrase:
-        print('и тебе привет!')
-        met_phrase = True
-        break        
-for farewell_phrase in farewell_phrases:
-    if user_text == farewell_phrase:
-        print('и тебе пока!')
+        print("не ругайся!")
         met_phrase = True
         break
-if  met_phrase == False:
-    print('я тебя не понимаю')
+for greeting_phrase in greeting_phrases:
+    if user_text == greeting_phrase:
+        print("и тебе привет!")
+        met_phrase = True
+        break
+for farewell_phrase in farewell_phrases:
+    if user_text == farewell_phrase:
+        print("и тебе пока!")
+        met_phrase = True
+        break
+if met_phrase == False:
+    print("я тебя не понимаю")
