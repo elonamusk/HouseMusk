@@ -18,5 +18,5 @@ for farewell_phrase in farewell_phrases:
         print("и тебе пока!")
         met_phrase = True
         break
-if met_phrase == False:
+if met_phrase is False:
     print("я тебя не понимаю")
