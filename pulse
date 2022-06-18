@@ -1,27 +1,27 @@
 # программа для людей от 1 года до 80 лет
-age = int(input('Введите свой возраст в годах от 1 до 80'))
-pulse = int(input('Введите свой пульс в уд/мин'))
-if 1 <= age <= 2  and 94 <= pulse <= 154:
-    print('С Вами все нормально!')
-elif 2 <= age <= 4  and 90 <= pulse <= 140:
-    print('С Вами все нормально!')
-elif 4 <= age <= 6  and 86 <= pulse <= 126:
-    print('С Вами все нормально!')
-elif 6 <= age <= 8  and 78 <= pulse <= 118:
-    print('С Вами все нормально!')
-elif 8 <= age <= 10  and 68 <= pulse <= 108:
-    print('С Вами все нормально!')
-elif 10 <= age <= 12  and 60 <= pulse <= 100:
-    print('С Вами все нормально!')
-elif 12 <= age <= 15  and 55 <= pulse <= 95:
-    print('С Вами все нормально!')
-elif 15 <= age <= 50  and 60 <= pulse <= 80:
-    print('С Вами все нормально!')
-elif 50 <= age <= 60  and 64 <= pulse <= 84:
-    print('С Вами все нормально!')
-elif 60 <= age <= 80  and 69 <= pulse <= 89:
-    print('С Вами все нормально!')
+age = int(input("Введите свой возраст в годах от 1 до 80"))
+pulse = int(input("Введите свой пульс в уд/мин"))
+if 1 <= age <= 2 and 94 <= pulse <= 154:
+    print("С Вами все нормально!")
+elif 2 <= age <= 4 and 90 <= pulse <= 140:
+    print("С Вами все нормально!")
+elif 4 <= age <= 6 and 86 <= pulse <= 126:
+    print("С Вами все нормально!")
+elif 6 <= age <= 8 and 78 <= pulse <= 118:
+    print("С Вами все нормально!")
+elif 8 <= age <= 10 and 68 <= pulse <= 108:
+    print("С Вами все нормально!")
+elif 10 <= age <= 12 and 60 <= pulse <= 100:
+    print("С Вами все нормально!")
+elif 12 <= age <= 15 and 55 <= pulse <= 95:
+    print("С Вами все нормально!")
+elif 15 <= age <= 50 and 60 <= pulse <= 80:
+    print("С Вами все нормально!")
+elif 50 <= age <= 60 and 64 <= pulse <= 84:
+    print("С Вами все нормально!")
+elif 60 <= age <= 80 and 69 <= pulse <= 89:
+    print("С Вами все нормально!")
 elif age > 80 or age < 1:
-    print('Ошибка')
+    print("Ошибка")
 else:
-    print('Пульс не в порядке')
+    print("Пульс не в порядке")
